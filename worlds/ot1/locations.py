@@ -22,6 +22,56 @@ if TYPE_CHECKING:
 #     # Location IDs don't need to be sequential, as long as they're unique and greater than 0.
 #     "Right Room Enemy Drop": 10,
 # }
+CHARACTER_RECRUITMENT_TO_ID = {
+    "Recruit Olberic": 1,
+    "Recruit Tressa": 2,
+    "Recruit Cyrus": 3,
+    "Recruit Primrose": 4,
+    "Recruit H'aanit": 5,
+    "Recruit Therion": 6,
+    "Recruit Ophilia": 7,
+    "Recruit Alfyn": 8,
+}
+
+CHARACTER_STORY_PROGRESS_TO_ID = {
+    "Finished Olberic Chapter 1": 10,
+    "Finished Olberic Chapter 2": 11,
+    "Finished Olberic Chapter 3": 12,
+    "Finished Olberic Chapter 4": 13,
+    "Finished Tressa Chapter 1": 20,
+    "Finished Tressa Chapter 2": 21,
+    "Finished Tressa Chapter 3": 22,
+    "Finished Tressa Chapter 4": 23,
+    "Finished Cyrus Chapter 1": 30,
+    "Finished Cyrus Chapter 2": 31,
+    "Finished Cyrus Chapter 3": 32,
+    "Finished Cyrus Chapter 4": 33,
+    "Finished Primrose Chapter 1": 40,
+    "Finished Primrose Chapter 2": 41,
+    "Finished Primrose Chapter 3": 42,
+    "Finished Primrose Chapter 4": 43,
+    "Finished H'aanit Chapter 1": 50,
+    "Finished H'aanit Chapter 2": 51,
+    "Finished H'aanit Chapter 3": 52,
+    "Finished H'aanit Chapter 4": 53,
+    "Finished Therion Chapter 1": 60,
+    "Finished Therion Chapter 2": 61,
+    "Finished Therion Chapter 3": 62,
+    "Finished Therion Chapter 4": 63,
+    "Finished Ophilia Chapter 1": 70,
+    "Finished Ophilia Chapter 2": 71,
+    "Finished Ophilia Chapter 3": 72,
+    "Finished Ophilia Chapter 4": 73,
+    "Finished Alfyn Chapter 1": 80,
+    "Finished Alfyn Chapter 2": 81,
+    "Finished Alfyn Chapter 3": 82,
+    "Finished Alfyn Chapter 4": 83,
+}
+
+CHEST_TO_ID = {
+
+}
+
 LOCATION_NAME_TO_ID = {
     "S'warkii Chest 1": 1,
     "S'warkii Chest 2": 2,

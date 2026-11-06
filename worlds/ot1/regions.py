@@ -34,10 +34,32 @@ def create_all_regions(world: OctopathTravelerWorld) -> None:
     swarkii = Region("S'warkii", world.player, world.multiworld)
     path_to_the_whisperwood = Region("Path to the Whisperwood", world.player, world.multiworld)
     the_whisperwood = Region("The Whisperwood", world.player, world.multiworld)
+
+    north_swarkii_trail = Region("North S'warkii Trail", world.player, world.multiworld)
+    west_swarkii_trail = Region("West S'warkii Trail", world.player, world.multiworld)
+    north_bolderfall_pass = Region("North Bolderfall Pass", world.player, world.multiworld)
+    south_bolderfall_pass = Region("South Bolderfall Pass", world.player, world.multiworld)
+    west_clearbrook_traverse = Region("West Clearbrook Traverse", world.player, world.multiworld)
+    south_clearbrook_traverse = Region("South Clearbrook Traverse", world.player, world.multiworld)
+    southern_sunshade_sands = Region("Southern Sunshade Sands", world.player, world.multiworld)
+    eastern_sunshade_sands = Region("Eastern Sunshade Sands", world.player, world.multiworld)
+    south_cobbleston_gap = Region("South Cobbleston Gap", world.player, world.multiworld)
+    north_cobbleston_gap = Region("North Cobbleston Gap", world.player, world.multiworld)
+    east_rippletide_coast = Region("East Rippletide Coast", world.player, world.multiworld)
+    north_rippletide_coast = Region("North Rippletide Coast", world.player, world.multiworld)
+    east_atlasdam_flats = Region("East Atlasdam Flats", world.player, world.multiworld)
+    north_atlasdam_flats = Region("North Atlasdam Flats", world.player, world.multiworld)
+    northern_flamesgrace_wilds = Region("Northern Flamesgrace Wilds", world.player, world.multiworld)
+    western_flamesgrace_wilds = Region("Western Flamesgrace Wilds", world.player, world.multiworld)
+
+
     #  = Region("", world.player, world.multiworld)
 
     # Let's put all these regions in a list.
-    regions = [swarkii,path_to_the_whisperwood,the_whisperwood]
+    regions = [
+        swarkii, path_to_the_whisperwood, the_whisperwood,
+        north_swarkii_trail, west_swarkii_trail, north_bolderfall_pass, south_bolderfall_pass, west_clearbrook_traverse, south_clearbrook_traverse, southern_sunshade_sands, eastern_sunshade_sands, south_cobbleston_gap, north_cobbleston_gap, east_rippletide_coast, north_rippletide_coast, east_atlasdam_flats, north_atlasdam_flats, northern_flamesgrace_wilds, western_flamesgrace_wilds
+        ]
 
     # Some regions may only exist if the player enables certain options.
     # In our case, the Hammer locks the top middle chest in its own room if the hammer option is enabled.

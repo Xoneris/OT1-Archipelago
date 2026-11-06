@@ -19,7 +19,23 @@ if TYPE_CHECKING:
 #     "Confetti Cannon": 6,
 #     "Math Trap": 7,
 # }
+
+CHARACTER_TO_ID = {
+    "Olberic": 1,
+    "Tressa": 2,
+    "Cyrus": 3,
+    "Primrose": 4,
+    "H'aanit": 5,
+    "Therion": 6,
+    "Ophilia": 7,
+    "Alfyn": 8,
+}
+
 ITEM_NAME_TO_ID = {
+
+
+
+
     "Healing Grape": 1,
     "Inspiriting Plum": 2,
     "Stone Bow": 3,
